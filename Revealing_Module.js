@@ -6,7 +6,7 @@
 * myRevealingModule.get();* 
 * @author: Addy Osmani
 */
-
+"use strict;"
 var myRevealingModule = (function() {
   var name = "Alex Good";
   var age = 25;

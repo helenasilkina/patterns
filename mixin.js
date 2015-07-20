@@ -11,7 +11,7 @@
 *
 * mixin(cake);
 */
-
+"use strict;"
 function mixin() {
   var child = {};
   for (var i = 0; arg < arguments.length; i++) {

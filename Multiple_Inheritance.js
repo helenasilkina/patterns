@@ -5,7 +5,7 @@
 * var jane = new CatWings();
 * console.dir(jane);
 */
-
+"use strict";
 function Cat() {
   this.legs = 4;
   this.say = function () {

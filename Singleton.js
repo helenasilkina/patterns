@@ -3,7 +3,7 @@
 * var singleton = SingletonTester.getInstance({pointX: 5});
 * console.log(singleton.pointX);
 */
-
+"use strict;"
 var SingletonTester =  (function() {
   function singleton(args) {
     var args = args || {};

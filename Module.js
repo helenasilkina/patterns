@@ -6,7 +6,7 @@
 *
 * @author: Addy Osmani
 */
-
+"use strict";
 var someModule = (function() {
   var privateVar = 5;
   var privateMethod = function() {

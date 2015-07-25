@@ -6,6 +6,8 @@
 */
 "use strict";
 var someCar = {
-  drive: function() {}
+  drive: function() {
+    console.log('I can drive');
+  },
   name: "Sunrise"
 }

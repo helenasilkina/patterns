@@ -11,3 +11,11 @@ var someCar = {
   },
   name: "Sunrise"
 }
+
+someCar.prototype.getName = function() {
+  return this.name;
+}
+
+someCar.prototype.setName = function(newName) {
+  this.name = newName;
+}

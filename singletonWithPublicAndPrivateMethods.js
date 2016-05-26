@@ -1,4 +1,4 @@
-var yetAnotherSingleton = (function () {
+var Singleton = (function () {
  
   var instance;
  

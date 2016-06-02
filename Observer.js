@@ -1,10 +1,3 @@
-// See also Links:
-// Ben Alman's Pub/Sub gist https://gist.github.com/661855 (recommended)
-// Rick Waldron's jQuery-core style take on the above https://gist.github.com/705311
-// Peter Higgins" plugin http://github.com/phiggins42/bloody-jquery-plugins/blob/master/pubsub.js.
-// AppendTo's Pub/Sub in AmplifyJS http://amplifyjs.com
-// Ben Truyman's gist https://gist.github.com/826794
-
 // source: https://addyosmani.com/resources/essentialjsdesignpatterns/book/#introduction
 // model the list of dependent Observers
 

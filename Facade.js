@@ -9,7 +9,7 @@ var addMyEvent = function (el, ev, fn) {
   }
 };
 
-// another Fasade 
+// another Facade implementation
 var Facade = (function() {
     var _private = {
         index: 0,

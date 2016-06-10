@@ -9,3 +9,24 @@ var addMyEvent = function (el, ev, fn) {
   }
 };
 
+// another Fasade 
+var Facade = (function() {
+    var _private = {
+        index: 0,
+        get: function() {
+            return index;
+        },
+        set: function( value ) {
+            this.index = value;
+        }
+    };
+    
+    return {
+        methods: function( args ) {
+            _private.set(args.val);
+            _private.get();
+        }
+    };
+}());
+ 
+Facade.methods( {value: 10} );
